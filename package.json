@@ -1,0 +1,39 @@
+{
+  "name": "my-project",
+  "version": "0.1.0",
+  "description": "My project",
+  "scripts": {
+    "flow": "flow; test $? -eq 0 -o $? -eq 2",
+    "lint": "eslint .",
+    "test-watch": "meteor test --port 3100 --driver-package practicalmeteor:mocha"
+  },
+  "author": "myself",
+  "private": true,
+  "dependencies": {
+    "immutable": "^3.8.1",
+    "meteor-node-stubs": "^0.2.3",
+    "meteor-react-prebind": "^1.0.3",
+    "react": "^15.2.1",
+    "react-addons-pure-render-mixin": "^15.2.1",
+    "react-dom": "^15.2.1",
+    "react-mounter": "^1.2.0",
+    "react-redux": "^4.4.5",
+    "react-router": "^2.5.2",
+    "redux": "^3.5.2",
+    "redux-logger": "^2.6.1",
+    "redux-thunk": "^2.1.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^6.1.0",
+    "chai": "^3.5.0",
+    "enzyme": "^2.3.0",
+    "eslint": "^3.0.1",
+    "eslint-plugin-flowtype": "^2.2.7",
+    "eslint-plugin-react": "^5.2.2",
+    "flow-bin": "^0.28.0",
+    "json-loader": "^0.5.4",
+    "react-addons-perf": "^15.1.0",
+    "react-addons-test-utils": "^15.1.0",
+    "sinon": "^1.17.4"
+  }
+}
